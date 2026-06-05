@@ -12,12 +12,6 @@ The application includes:
 - Device discovery
 - LED strip power, brightness and colour control
 
-## Inspiration
-
-This project is technically inspired by the open-source [`lepro_led`](https://github.com/Sanji78/lepro_led) integration for Home Assistant.
-
-The `lepro_led` repository was used as a reference to understand how Lepro Cloud communication works. This project is an adaptation which does not depend on Home Assistant and HACS.
-
 ## Security
 
 Sensitive data is not stored in plain text.
@@ -41,8 +35,8 @@ Do not hardcode real credentials or tokens in the source code.
 1. Clone the repository:
 
 ```bash
-git clone <your-repository-url>
-cd <your-project-folder>
+git clone https://github.com/AndresFerrerURL/lepro_control.git
+cd lepro_control
 ```
 
 2. Open the project in Xcode:
@@ -57,7 +51,7 @@ open LeproControl.xcodeproj
 
 5. Select a device from the sidebar.
 
-6. Control power and brightness from the dashboard.
+6. Enjoy.
 
 ## Limitations
 
@@ -82,6 +76,8 @@ Lepro is a trademark of its respective owner.
 This project is inspired by the technical work done in the open-source Home Assistant custom integration:
 
 - [`Sanji78/lepro_led`](https://github.com/Sanji78/lepro_led)
+
+The `lepro_led` repository was used as a reference to understand how Lepro Cloud communication works. This project is an adaptation which does not depend on Home Assistant and HACS.
 
 ## License
 
