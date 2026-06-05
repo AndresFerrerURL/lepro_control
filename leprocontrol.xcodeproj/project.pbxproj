@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		41DF66852FD249F700FE9E8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41DF66842FD249F700FE9E8E /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		41DF65402FD2335E00FE9E8E /* leprocontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leprocontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41DF66842FD249F700FE9E8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		41DF65372FD2335E00FE9E8E = {
 			isa = PBXGroup;
 			children = (
+				41DF66842FD249F700FE9E8E /* README.md */,
 				41DF65422FD2335E00FE9E8E /* leprocontrol */,
 				41DF65412FD2335E00FE9E8E /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DF66852FD249F700FE9E8E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
